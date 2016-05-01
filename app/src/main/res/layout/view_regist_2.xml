@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graduation.mcs.ui.view.Regist2View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/large_space"
+        android:text="@string/regist_remind_01"
+        android:textAppearance="@android:style/TextAppearance"
+        />
+    <TextView
+        android:id="@+id/regist_2_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/medium_space"
+        android:text="+86"
+        android:textAppearance="@android:style/TextAppearance"
+        />
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/small_space"
+        >
+        <EditText
+            android:id="@+id/regist_2_verifycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWindow"
+            android:layout_margin="@dimen/medium_space"
+            android:textAppearance="@android:style/TextAppearance"
+            android:hint="@string/regist_remind_02"
+            />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/regist_2_resend_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/big_small_space"
+        android:textAppearance="@android:style/TextAppearance"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/regist_remind_resend_message"
+        />
+
+    <Button
+        android:id="@+id/regist_2_next_step"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height_big"
+        android:layout_marginTop="@dimen/big_small_space"
+        android:textAppearance="@android:style/TextAppearance.Inverse"
+        android:background="@drawable/selector_btn"
+        android:layout_marginLeft="@dimen/large_space"
+        android:layout_marginRight="@dimen/large_space"
+        android:text="@string/regist_next_step"
+        />
+</graduation.mcs.ui.view.Regist2View>

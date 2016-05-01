@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item
+      android:id="@+id/action_about"
+      android:enabled="true"
+      android:title="@string/action_bar_about"
+      app:showAsAction="never"/>
+  <item
+      android:id="@+id/action_feedback"
+      android:enabled="true"
+      android:title="@string/action_bar_feedback"
+      app:showAsAction="never">
+  </item>
+  <item
+      android:id="@+id/action_search"
+      android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+      android:title="@string/action_bar_search"
+      app:actionViewClass="android.support.v7.widget.SearchView"
+      app:showAsAction="ifRoom|collapseActionView"/>
+</menu>

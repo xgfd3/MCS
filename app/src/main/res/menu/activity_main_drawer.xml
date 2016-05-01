@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_confatte"
+        android:icon="@mipmap/ic_action_edit_normal"
+        android:checked="true"
+        android:title="@string/conference_attendence"/>
+    <item
+        android:id="@+id/nav_file"
+        android:icon="@mipmap/ic_menu_copy_normal"
+        android:title="@string/file_manager"/>
+    <item
+        android:id="@+id/nav_contact"
+        android:icon="@mipmap/ic_member_add_normal"
+        android:title="@string/contact_exchange"/>
+  </group>
+
+</menu>

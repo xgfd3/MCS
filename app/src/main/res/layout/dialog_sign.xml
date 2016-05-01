@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/sign_qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/sign_qrcode"
+            android:padding="@dimen/big_small_space"
+            android:textSize="@dimen/medium_text"
+            android:background="@drawable/selector_item"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@android:color/black"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/sign_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/sign_serial"
+        android:padding="@dimen/big_small_space"
+        android:textSize="@dimen/medium_text"
+        android:background="@drawable/selector_item"
+        />
+
+</LinearLayout>

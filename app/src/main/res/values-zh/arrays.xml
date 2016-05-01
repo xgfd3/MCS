@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="title_conatt">
+    <item>签到</item>
+    <item>会议</item>
+  </array>
+</resources>

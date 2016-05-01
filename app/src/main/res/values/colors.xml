@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimaryLight">#0066FF</color>
+  <color name="colorPrimary">#0066FF</color>
+  <color name="colorPrimaryDark">#0066FF</color>
+  <color name="colorWindow">#FFFEFEFE</color>
+
+  <color name="common_list_smart_tab_underline_color">@android:color/white</color>
+
+  <color name="color1">#ff0f9d58</color>
+  <color name="color2">#ffdb4437</color>
+  <color name="color3">#ff4285f4</color>
+  <color name="color4">#fff4b400</color>
+  <color name="light_gray">#80bebebe</color>
+
+</resources>

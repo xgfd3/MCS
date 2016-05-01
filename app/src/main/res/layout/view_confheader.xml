@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graduation.mcs.ui.view.ConfHeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_header_height"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginBottom="@dimen/view_fabsize_half"
+      android:background="@color/colorPrimary"
+      android:padding="@dimen/big_small_space"
+
+      >
+
+    <RelativeLayout
+        android:id="@+id/rl01"
+        android:layout_width="@dimen/conference_logo_width"
+        android:layout_height="@dimen/conference_logo_height"
+        android:layout_marginRight="@dimen/big_small_space"
+        android:layout_centerVertical="true"
+        >
+
+      <ImageView
+          android:id="@+id/iv_avatar"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:src="@mipmap/ic_me_avatar_bg"
+          android:scaleType="fitXY"
+          />
+
+        <ImageView
+            android:id="@+id/iv_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/small_space"
+            android:src="@mipmap/camera"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_theme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/rl01"
+        android:layout_toRightOf="@id/rl01"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/conference_theme"
+        android:textColor="@color/colorWindow"
+        android:textSize="@dimen/medium_text"
+        />
+    <TextView
+        android:id="@+id/tv_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_theme"
+        android:layout_toRightOf="@id/rl01"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="@string/conference_place"
+        android:textColor="@color/colorWindow"
+        android:textSize="@dimen/medium_text"
+        />
+    <TextView
+        android:id="@+id/tv_time_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/rl01"
+        android:layout_toRightOf="@id/rl01"
+        android:text="@string/conference_time_end"
+        android:textColor="@color/colorWindow"
+        android:textSize="@dimen/micro_text"
+        />
+    <TextView
+        android:id="@+id/tv_time_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tv_time_end"
+        android:layout_toRightOf="@id/rl01"
+        android:text="@string/conference_time_start"
+        android:textColor="@color/colorWindow"
+        android:textSize="@dimen/micro_text"
+        />
+
+  </RelativeLayout>
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/fab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      android:layout_marginBottom="@dimen/spacing_double"
+      android:layout_marginRight="16dp"
+      android:elevation="3dp"
+      android:padding="0dp"
+      android:src="@mipmap/ic_check_white"
+      app:borderWidth="0dp"
+      app:fabSize="normal"
+      />
+
+</graduation.mcs.ui.view.ConfHeaderView>

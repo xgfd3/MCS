@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<graduation.mcs.ui.view.Regist1View xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="@dimen/large_space"
+      android:layout_marginRight="@dimen/large_space"
+      android:layout_marginTop="@dimen/big_large_space"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Widget.EditText"
+        android:padding="@dimen/text_textview_to_edittext"
+        android:text="+86"
+        />
+
+    <EditText
+        android:id="@+id/regist_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="60dp"
+        android:hint="@string/regist_hint_input_phone"
+        />
+  </RelativeLayout>
+
+  <Button
+      android:id="@+id/regist_get_verifycode"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/button_height_big"
+      android:layout_marginLeft="@dimen/large_space"
+      android:layout_marginRight="@dimen/large_space"
+      android:layout_marginTop="@dimen/big_large_space"
+      android:background="@drawable/selector_btn"
+      android:text="@string/regist_btn_get_verifycode"
+      android:textAppearance="@android:style/TextAppearance.Inverse"
+      />
+
+</graduation.mcs.ui.view.Regist1View>
